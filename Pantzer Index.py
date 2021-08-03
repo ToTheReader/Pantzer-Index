@@ -1,4 +1,4 @@
-# see Jupyter notebook Pantzer Index cleaning
+# Parsing OCR'd text of Pantzer Index into a Python dictionary (and performing some clean up; see Jupyter Notebooks for more clean up)
 
 import re
 import os
