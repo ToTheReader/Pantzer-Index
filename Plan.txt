@@ -1,0 +1,39 @@
+Panzer Index digitisation plan
+
+1. Scan pages 
+
+2. OCR with FineReader
+
+3. Verify low confidence characters
+
+4. Make headings identified by finereader big and export as formatted text to Word
+
+5. go through whole thing and
+	a. consolidate printer blocks over a page break (the cont. headings)
+	b. put a new line before every printer heading (i.e. between each printer block)
+	c. do a general check for consistency
+	d. delete big letter headings
+	e. things to findall/replace: the low quotation mark with '.,'; the carat with A (see global change file for more)
+
+6. Run sequence of regexes to split up the heirarchy into a python dictionary (see regex file)
+
+7. Export python dictionary as xml, excel, or similar
+
+8. Import into TTR database by cross referencing numbers. 
+
+
+
+low conf characters
+page 1, 54
+
+page 2, 59
+
+page 3, 55
+
+page 4, 58
+
+so could be around 11,000 low conf characters!
+Might be able to reduce this with a higher res scan?
+Most of these are the same letters though so can be handled with a findall/replace, but would still need to click through all of them
+
+Took about 5 mins to do 1 page, so allow 2 days for 193

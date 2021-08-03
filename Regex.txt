@@ -1,0 +1,36 @@
+Sequence of regular expressions for cleaning and parsing the Pantzer index data
+
+
+Start dividing from the highest part of the heirarchy (per printer block), then keep splitting on subsequently lower layers: headnote/books; dates; STC numbers
+
+
+
+1. Printer blocks
+
+	split string down \n\n after stage 5 of plan
+
+2. Split name heading from data
+
+	name should be same as first line, remove from string and create new dict with this value
+	
+3. Split up data delimited by the '1510: ' date formula
+
+	^(?!(after )?\d\d\d\d([-\/]\d\d)?(, before)?(, after)?[:?])
+
+
+4. Assign list[0] to dict
+
+
+5. Split dates into date/numbers
+
+	split down colon whitespace (i.e. separate date from numbers)
+
+	Assign to dict and delete from string
+	And the rest should be the numbers
+
+
+5. Split the number string into numbers
+
+	This should work by dividing down a delimiter rather than targeting a certain sequence. So, comma and space (sometimes OCR has fullstop instead of comma maybe?). Might not even need regex for this, just python split method
+
+From there we have all the numbers separate which should be enough to cross ref them, but would be nice to parse the extra info that comes along with them (d?), square brackets, ass'd, etc., see abbreviations in STC

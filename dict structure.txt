@@ -1,0 +1,52 @@
+Pantzer index dict structure
+v. 1
+pantzer = {
+
+	Printer Name : {
+		headnote : 'string',
+		year : ['STC no as string', 'STC no as string', 'STC no as string'],
+		year : ['STC no as string', 'STC no as string', 'STC no as string'],
+		year : ['STC no as string', 'STC no as string', 'STC no as string']
+		}
+
+	Printer Name : {
+		headnote : 'string',
+		year : ['STC no as string', 'STC no as string', 'STC no as string'],
+		year : ['STC no as string', 'STC no as string', 'STC no as string'],
+		year : ['STC no as string', 'STC no as string', 'STC no as string']
+		}
+
+	Printer Name : {
+		headnote : 'string',
+		year : ['STC no as string', 'STC no as string', 'STC no as string'],
+		year : ['STC no as string', 'STC no as string', 'STC no as string'],
+		year : ['STC no as string', 'STC no as string', 'STC no as string']
+		}
+	}
+
+
+v. 2
+
+pantzer = {
+
+	Printer Name : {
+		headnote : 'string',
+		year : {'STC number' : 'STC attributes', 'STC number' : 'STC attributes', 'STC number' : 'STC attributes'},
+		year : {'STC number' : 'STC attributes', 'STC number' : 'STC attributes', 'STC number' : 'STC attributes'},
+		year : {'STC number' : 'STC attributes', 'STC number' : 'STC attributes', 'STC number' : 'STC attributes'},
+		}
+
+	Printer Name : {
+		headnote : 'string',
+		year : {'STC number' : 'STC attributes', 'STC number' : 'STC attributes', 'STC number' : 'STC attributes'},
+		year : {'STC number' : 'STC attributes', 'STC number' : 'STC attributes', 'STC number' : 'STC attributes'},
+		year : {'STC number' : 'STC attributes', 'STC number' : 'STC attributes', 'STC number' : 'STC attributes'},
+		}
+
+	Printer Name : {
+		headnote : 'string',
+		year : {'STC number' : 'STC attributes', 'STC number' : 'STC attributes', 'STC number' : 'STC attributes'},
+		year : {'STC number' : 'STC attributes', 'STC number' : 'STC attributes', 'STC number' : 'STC attributes'},
+		year : {'STC number' : 'STC attributes', 'STC number' : 'STC attributes', 'STC number' : 'STC attributes'},
+		}
+	}

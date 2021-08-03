@@ -1,0 +1,33 @@
+some things to change globally:
+
+ctrl f for 'cont.' headings DONE
+
+'Diet. 7'; 'Diet. /', 'Dict. 7', 'Dict. /' etc
+to
+'Dict. 1' 
+and diet to dict generally
+DONE
+
+
+., for baseline speech mark DONE
+
+search for carats too DONE
+
+
+not accounted for by script:
+stc numbers of the form 9025-6, 9027-8
+what are these??
+E.G. IN R BARKER
+see postit notes for more
+
+possibly worth searching for a comma followed by numeral to check there are spaces delimiting stc numbers
+
+the dash solution in the script doesn't yet work for dashes in square brackets, of form '[—.328?],'
+
+$
+
+
+
+after structuring:
+
+change l to 1 in numbers
